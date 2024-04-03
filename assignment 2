@@ -65,20 +65,5 @@ System.exit(0);
 response.setText(outputString + " selected");
 }
 };
-fnewMenuItem.setOnAction(menuEventHandler);
-fopenMenuItem.setOnAction(menuEventHandler);
-fsaveMenuItem.setOnAction(menuEventHandler);
-cutMenuItem.setOnAction(menuEventHandler);
-copyMenuItem.setOnAction(menuEventHandler);
-pasteMenuItem.setOnAction(menuEventHandler);
-helpcentreMenuItem.setOnAction(menuEventHandler);
-aboutMenuItem.setOnAction(menuEventHandler);
-primaryStage.show();
-} catch(Exception e) {
-System.err.println(e);
-}
-}
-public static void main(String[] args) {
-launch(args);
-}
+
 
